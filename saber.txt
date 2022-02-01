@@ -1,0 +1,24 @@
+- clases / constructores : el constructor es el que va a ejecutar cuando se haga 
+ una instancia
+
+- this.variable : son propiedades que se usaran constantement en una clase
+- data/data.json : se guarda la info en un json para simular una database 
+- this.ultimo += 1; : this.ultimo = this.ultimo + 1;
+* cuando trabajso con clases, todo lo que inicializes comienza con this
+* this.metodo();
+- push : para agregar al arreglo
+- shift : para eliminar un elemento de un arreglo
+- unshift : enviar elementos de un arreglo al inicio
+- splice(-1,1) : para eliminar los ultimos elemtnos de un arreglo
+- client.broadcast.emit() : para todos lso clientes que estan escuhando
+
+- heroku : vas a la pagina> creas la nuevra app>
+$ heroku login
+$ heroku git:remote -a colas
+$ git push heroku master
+
+- github : vas a tu cuenta>crear un nuevo repositorio
++ copias el link de tu repositorio
++ vas a tu consola 
+$ git remote add origin httpslink
+$ git push -u origin master
